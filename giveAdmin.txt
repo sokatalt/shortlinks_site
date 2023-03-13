@@ -1,0 +1,8 @@
+دي اومر mysql علشان تعطي نفسك صلاحيات ادمن
+mysql -u root -p
+use shortLinks;
+update users set is_admin where id = 1;
+
+علشان تعرف رقم ال id بتاع اليوزر الي متسجل
+
+select * from users
